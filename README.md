@@ -25,8 +25,8 @@
 
 ## array true,false
 ### 설명
-매개변수를 사용하여 위에있는 if문을 통해 배열의 길이가 같은가?를 구하고<br>
-배열의 값이 같은가?를 아래에 for문,if문을 써서 구한다. 
+매개변수를 사용하여 위에있는 if문을 통해 배열의 길이가 다른가?를 구하고<br>
+배열의 값이 다른가?를 아래에 for문,if문을 써서 구한다. 
 ```java
 	static boolean equals(int[] a,int[] b) {
 		if(a.length != b.length)
@@ -37,7 +37,7 @@
 					return true;
 	}
 ```
-배열의 값을 입력받음
+배열의 길이를 입력받음
 ```JAVA
 		Scanner sc = new Scanner(System.in);
 		System.out.print("배열a의 길이: ");
