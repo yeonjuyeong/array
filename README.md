@@ -22,9 +22,11 @@
 ![image](https://user-images.githubusercontent.com/123055714/224601638-ea8d7328-06d7-4639-9768-f15e1b389bde.png)
 ### 결과
 ![image](https://user-images.githubusercontent.com/123055714/224601684-a1426ff5-6b79-4182-a6f1-0b6c4b34adef.png)
+
 ## array true,false
 ### 설명
-매개변수를 사용하여 if문을 통해 배열이 같은가 같지 않은가를 할 수 있게 만듬
+매개변수를 사용하여 위에있는 if문을 통해 배열의 길이가 같은가?를 구하고<br>
+배열의 값이 같은가?를 아래에 for문,if문을 써서 구한다. 
 ```java
 	static boolean equals(int[] a,int[] b) {
 		if(a.length != b.length)
